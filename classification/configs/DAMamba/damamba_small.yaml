@@ -1,0 +1,16 @@
+MODEL:
+  TYPE: DAMamba
+  NAME: small
+  DROP_PATH_RATE: 0.4
+  DAMAMBA:
+    EMBED_DIM: [96, 192, 384, 512]
+    DEPTHS: [4, 8, 20, 6]
+    MLP_RATIO: (4, 4, 3, 3)
+    HEAD_DIM: 16
+    LAYERSCALE: [False,False,True,True]
+  DDP: 'torch'
+
+TRAIN:
+  EPOCHS: 300
+  WARMUP_EPOCHS: 20
+  MESA: 1.5
