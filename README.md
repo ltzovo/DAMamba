@@ -50,11 +50,13 @@
 ## 🖊️ Citation
 
 ```BibTeX
-@article{li2025damamba,
-  title={DAMamba: Vision State Space Model with Dynamic Adaptive Scan},
+@article{li2026damamba,
+  title={Damamba: Vision state space model with dynamic adaptive scan},
   author={Li, Tanzhe and Li, Caoshuo and Lyu, Jiayi and Pei, Hongjuan and Zhang, Baochang and Jin, Taisong and Ji, Rongrong},
-  journal={arXiv preprint arXiv:2502.12627},
-  year={2025}
+  journal={Advances in Neural Information Processing Systems},
+  volume={38},
+  pages={39777--39799},
+  year={2026}
 }
 ```
 
